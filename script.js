@@ -50,7 +50,7 @@ document.querySelector("#filter").addEventListener("click", () => {
   let groupLevel1 = $("#groupsLevel1 option:selected").val();
   let groupLevel2 = $("#groupsLevel2 option:selected").val();
 
-  console.log(groupLevel1)
+  console.log(groupLevel1);
 
   if (by == "Level") {
     if (select2 == "Level 1") {
@@ -58,14 +58,14 @@ document.querySelector("#filter").addEventListener("click", () => {
       $(".three").delay(500).fadeOut("fast");
       $(".four").delay(500).fadeOut("fast");
 
-      if (groupLevel1 == ("a") || groupLevel1 == ("b")) {
+      if (groupLevel1 == "a" || groupLevel1 == "b") {
         $('.one[group="C,D"]').delay(500).fadeOut("fast");
         $('.one[group="A,B"]').show();
-      } else if (groupLevel1 == ("c") || groupLevel1 == ("d")) {
+      } else if (groupLevel1 == "c" || groupLevel1 == "d") {
         $('.one[group="A,B"]').delay(500).fadeOut("fast");
         $('.one[group="C,D"]').show();
-      } else if (groupLevel1 == "NA"){
-        console.log("Hi")
+      } else if (groupLevel1 == "NA") {
+        console.log("Hi");
         $('.one[group="A,B"]').show();
         $('.one[group="C,D"]').show();
       }
@@ -73,15 +73,15 @@ document.querySelector("#filter").addEventListener("click", () => {
       $(".one").delay(500).fadeOut("fast");
       $(".three").delay(500).fadeOut("fast");
       $(".four").delay(500).fadeOut("fast");
-      $('.two').show();
+      $(".two").show();
 
-      if (groupLevel2 == ("a") || groupLevel2 == ("b")) {
+      if (groupLevel2 == "a" || groupLevel2 == "b") {
         $('.two[group="C,D"]').delay(500).fadeOut("fast");
         $('.two[group="A,B"]').show();
-      } else if (groupLevel2 == ("c") || groupLevel2 == ("d")) {
+      } else if (groupLevel2 == "c" || groupLevel2 == "d") {
         $('.two[group="A,B"]').delay(500).fadeOut("fast");
         $('.two[group="C,D"]').show();
-      } else if (groupLevel2 == "NA"){
+      } else if (groupLevel2 == "NA") {
         $('.two[group="A,B"]').show();
         $('.two[group="C,D"]').show();
       }
@@ -104,42 +104,56 @@ document.querySelector("#filter").addEventListener("click", () => {
       $('.event[ta="A. Elgezawy"]').delay(500).fadeOut("fast");
       $('.event[ta="S. Nour"]').delay(500).fadeOut("fast");
       $('.event[ta="A. Samy"]').delay(500).fadeOut("fast");
+      $('.event[ta="NA"]').delay(500).fadeOut("fast");
     } else if (select2 == "A. Hefny") {
-        $('.event[ta="O. Galal"]').delay(500).fadeOut("fast");
-        $('.event[ta="A. Hefny"]').show();
-        $('.event[ta="M. Fares"]').delay(500).fadeOut("fast");
-        $('.event[ta="A. Elgezawy"]').delay(500).fadeOut("fast");
-        $('.event[ta="S. Nour"]').delay(500).fadeOut("fast");
-        $('.event[ta="A. Samy"]').delay(500).fadeOut("fast");
-      } else if (select2 == "M. Fares") {
-        $('.event[ta="O. Galal"]').delay(500).fadeOut("fast");
-        $('.event[ta="A. Hefny"]').delay(500).fadeOut("fast");
-        $('.event[ta="M. Fares"]').show();
-        $('.event[ta="A. Elgezawy"]').delay(500).fadeOut("fast");
-        $('.event[ta="S. Nour"]').delay(500).fadeOut("fast");
-        $('.event[ta="A. Samy"]').delay(500).fadeOut("fast");
-      } else if (select2 == "A. Elgezawy") {
-        $('.event[ta="O. Galal"]').delay(500).fadeOut("fast");
-        $('.event[ta="A. Hefny"]').delay(500).fadeOut("fast");
-        $('.event[ta="M. Fares"]').delay(500).fadeOut("fast");
-        $('.event[ta="A. Elgezawy"]').show();
-        $('.event[ta="S. Nour"]').delay(500).fadeOut("fast");
-        $('.event[ta="A. Samy"]').delay(500).fadeOut("fast");
-      } else if (select2 == "S. Nour") {
-        $('.event[ta="O. Galal"]').delay(500).fadeOut("fast");
-        $('.event[ta="A. Hefny"]').delay(500).fadeOut("fast");
-        $('.event[ta="M. Fares"]').delay(500).fadeOut("fast");
-        $('.event[ta="A. Elgezawy"]').delay(500).fadeOut("fast");
-        $('.event[ta="S. Nour"]').show();
-        $('.event[ta="A. Samy"]').delay(500).fadeOut("fast");
-      } else if (select2 == "A. Samy") {
-        $('.event[ta="O. Galal"]').delay(500).fadeOut("fast");
-        $('.event[ta="A. Hefny"]').delay(500).fadeOut("fast");
-        $('.event[ta="M. Fares"]').delay(500).fadeOut("fast");
-        $('.event[ta="A. Elgezawy"]').delay(500).fadeOut("fast");
-        $('.event[ta="S. Nour"]').delay(500).fadeOut("fast");
-        $('.event[ta="A. Samy"]').show();
-      }
+      $('.event[ta="O. Galal"]').delay(500).fadeOut("fast");
+      $('.event[ta="A. Hefny"]').show();
+      $('.event[ta="M. Fares"]').delay(500).fadeOut("fast");
+      $('.event[ta="A. Elgezawy"]').delay(500).fadeOut("fast");
+      $('.event[ta="S. Nour"]').delay(500).fadeOut("fast");
+      $('.event[ta="A. Samy"]').delay(500).fadeOut("fast");
+      $('.event[ta="NA"]').delay(500).fadeOut("fast");
+    } else if (select2 == "M. Fares") {
+      $('.event[ta="O. Galal"]').delay(500).fadeOut("fast");
+      $('.event[ta="A. Hefny"]').delay(500).fadeOut("fast");
+      $('.event[ta="M. Fares"]').show();
+      $('.event[ta="A. Elgezawy"]').delay(500).fadeOut("fast");
+      $('.event[ta="S. Nour"]').delay(500).fadeOut("fast");
+      $('.event[ta="A. Samy"]').delay(500).fadeOut("fast");
+      $('.event[ta="NA"]').delay(500).fadeOut("fast");
+    } else if (select2 == "A. Elgezawy") {
+      $('.event[ta="O. Galal"]').delay(500).fadeOut("fast");
+      $('.event[ta="A. Hefny"]').delay(500).fadeOut("fast");
+      $('.event[ta="M. Fares"]').delay(500).fadeOut("fast");
+      $('.event[ta="A. Elgezawy"]').show();
+      $('.event[ta="S. Nour"]').delay(500).fadeOut("fast");
+      $('.event[ta="A. Samy"]').delay(500).fadeOut("fast");
+      $('.event[ta="NA"]').delay(500).fadeOut("fast");
+    } else if (select2 == "S. Nour") {
+      $('.event[ta="O. Galal"]').delay(500).fadeOut("fast");
+      $('.event[ta="A. Hefny"]').delay(500).fadeOut("fast");
+      $('.event[ta="M. Fares"]').delay(500).fadeOut("fast");
+      $('.event[ta="A. Elgezawy"]').delay(500).fadeOut("fast");
+      $('.event[ta="S. Nour"]').show();
+      $('.event[ta="A. Samy"]').delay(500).fadeOut("fast");
+      $('.event[ta="NA"]').delay(500).fadeOut("fast");
+    } else if (select2 == "A. Samy") {
+      $('.event[ta="O. Galal"]').delay(500).fadeOut("fast");
+      $('.event[ta="A. Hefny"]').delay(500).fadeOut("fast");
+      $('.event[ta="M. Fares"]').delay(500).fadeOut("fast");
+      $('.event[ta="A. Elgezawy"]').delay(500).fadeOut("fast");
+      $('.event[ta="S. Nour"]').delay(500).fadeOut("fast");
+      $('.event[ta="A. Samy"]').show();
+      $('.event[ta="NA"]').delay(500).fadeOut("fast");
+    } else if (select2 == "NA") {
+      $('.event[ta="O. Galal"]').delay(500).fadeOut("fast");
+      $('.event[ta="A. Hefny"]').delay(500).fadeOut("fast");
+      $('.event[ta="M. Fares"]').delay(500).fadeOut("fast");
+      $('.event[ta="A. Elgezawy"]').delay(500).fadeOut("fast");
+      $('.event[ta="S. Nour"]').delay(500).fadeOut("fast");
+      $('.event[ta="A. Samy"]').delay(500).fadeOut("fast");
+      $('.event[ta="NA"]').show();
+    }
   }
 });
 
