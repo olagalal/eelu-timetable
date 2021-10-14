@@ -21,7 +21,7 @@ table {
 }
 
 table th:first-child  {
-    width: 100px;
+    width: 80px;
 }
 
 table th {
