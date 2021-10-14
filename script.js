@@ -57,6 +57,7 @@ document.querySelector("#filter").addEventListener("click", () => {
       $(".two").delay(500).fadeOut("fast");
       $(".three").delay(500).fadeOut("fast");
       $(".four").delay(500).fadeOut("fast");
+      $(".one-old").delay(500).fadeOut("fast");
 
       if (groupLevel1 == "a" || groupLevel1 == "b") {
         $('.one[group="C,D"]').delay(500).fadeOut("fast");
@@ -73,7 +74,7 @@ document.querySelector("#filter").addEventListener("click", () => {
       $(".one").delay(500).fadeOut("fast");
       $(".three").delay(500).fadeOut("fast");
       $(".four").delay(500).fadeOut("fast");
-      $(".two").show();
+      $(".one-old").delay(500).fadeOut("fast");
 
       if (groupLevel2 == "a" || groupLevel2 == "b") {
         $('.two[group="C,D"]').delay(500).fadeOut("fast");
@@ -90,11 +91,19 @@ document.querySelector("#filter").addEventListener("click", () => {
       $(".two").delay(500).fadeOut("fast");
       $(".three").show();
       $(".four").delay(500).fadeOut("fast");
+      $(".one-old").delay(500).fadeOut("fast");
     } else if (select2 == "Level 4") {
       $(".one").delay(500).fadeOut("fast");
       $(".two").delay(500).fadeOut("fast");
       $(".three").delay(500).fadeOut("fast");
       $(".four").show();
+      $(".one-old").delay(500).fadeOut("fast");
+    } else if (select2 == "Level 1 - Old") {
+      $(".one").delay(500).fadeOut("fast");
+      $(".two").delay(500).fadeOut("fast");
+      $(".three").delay(500).fadeOut("fast");
+      $(".four").delay(500).fadeOut("fast");
+      $(".one-old").show();
     }
   } else if (by == "TA") {
     if (select2 == "O. Galal") {
