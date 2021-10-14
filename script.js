@@ -50,8 +50,6 @@ document.querySelector("#filter").addEventListener("click", () => {
   let groupLevel1 = $("#groupsLevel1 option:selected").val();
   let groupLevel2 = $("#groupsLevel2 option:selected").val();
 
-  console.log(groupLevel1);
-
   if (by == "Level") {
     if (select2 == "Level 1") {
       $(".two").delay(500).fadeOut("fast");
@@ -59,16 +57,46 @@ document.querySelector("#filter").addEventListener("click", () => {
       $(".four").delay(500).fadeOut("fast");
       $(".one-old").delay(500).fadeOut("fast");
 
-      if (groupLevel1 == "a" || groupLevel1 == "b") {
-        $('.one[group="C,D"]').delay(500).fadeOut("fast");
-        $('.one[group="A,B"]').show();
-      } else if (groupLevel1 == "c" || groupLevel1 == "d") {
-        $('.one[group="A,B"]').delay(500).fadeOut("fast");
-        $('.one[group="C,D"]').show();
+      if (groupLevel1 == "a") {
+        $('.one[group="A,C"]').show();
+        $('.one[group="B,D"]').delay(500).fadeOut("fast");
+
+        $('.one[group="A"]').show();
+        $('.one[group="B"]').delay(500).fadeOut("fast");
+        $('.one[group="C"]').delay(500).fadeOut("fast");
+        $('.one[group="D"]').delay(500).fadeOut("fast");
+      } else if (groupLevel1 == "b") {
+        $('.one[group="A,C"]').delay(500).fadeOut("fast");
+        $('.one[group="B,D"]').show();
+
+        $('.one[group="A"]').delay(500).fadeOut("fast");
+        $('.one[group="B"]').show();
+        $('.one[group="C"]').delay(500).fadeOut("fast");
+        $('.one[group="D"]').delay(500).fadeOut("fast");
+      } else if (groupLevel1 == "c") {
+        $('.one[group="A,C"]').show();
+        $('.one[group="B,D"]').delay(500).fadeOut("fast");
+
+        $('.one[group="A"]').delay(500).fadeOut("fast");
+        $('.one[group="B"]').delay(500).fadeOut("fast");
+        $('.one[group="C"]').show();
+        $('.one[group="D"]').delay(500).fadeOut("fast");
+      } else if (groupLevel1 == "d") {
+        $('.one[group="A,C"]').delay(500).fadeOut("fast");
+        $('.one[group="B,D"]').show();
+
+        $('.one[group="A"]').delay(500).fadeOut("fast");
+        $('.one[group="B"]').show();
+        $('.one[group="C"]').delay(500).fadeOut("fast");
+        $('.one[group="D"]').show();
       } else if (groupLevel1 == "NA") {
-        console.log("Hi");
-        $('.one[group="A,B"]').show();
-        $('.one[group="C,D"]').show();
+        $('.one[group="A,C"]').show();
+        $('.one[group="B,D"]').show();
+
+        $('.one[group="A"]').show();
+        $('.one[group="B"]').show();
+        $('.one[group="C"]').show();
+        $('.one[group="D"]').show();
       }
     } else if (select2 == "Level 2") {
       $(".one").delay(500).fadeOut("fast");
@@ -76,15 +104,30 @@ document.querySelector("#filter").addEventListener("click", () => {
       $(".four").delay(500).fadeOut("fast");
       $(".one-old").delay(500).fadeOut("fast");
 
-      if (groupLevel2 == "a" || groupLevel2 == "b") {
-        $('.two[group="C,D"]').delay(500).fadeOut("fast");
-        $('.two[group="A,B"]').show();
-      } else if (groupLevel2 == "c" || groupLevel2 == "d") {
-        $('.two[group="A,B"]').delay(500).fadeOut("fast");
-        $('.two[group="C,D"]').show();
+      if (groupLevel2 == "a") {
+        $('.two[group="A,C"]').show();
+
+        $('.two[group="A"]').show();
+        $('.two[group="B"]').delay(500).fadeOut("fast");
+        $('.two[group="C"]').delay(500).fadeOut("fast");
+      } else if (groupLevel2 == "b") {
+        $('.two[group="A,C"]').delay(500).fadeOut("fast");
+
+        $('.two[group="A"]').delay(500).fadeOut("fast");
+        $('.two[group="B"]').show();
+        $('.two[group="C"]').delay(500).fadeOut("fast");
+      } else if (groupLevel2 == "c") {
+        $('.two[group="A,C"]').show();
+
+        $('.two[group="A"]').delay(500).fadeOut("fast");
+        $('.two[group="B"]').delay(500).fadeOut("fast");
+        $('.two[group="C"]').show();
       } else if (groupLevel2 == "NA") {
-        $('.two[group="A,B"]').show();
-        $('.two[group="C,D"]').show();
+        $('.one[group="A,C"]').show();
+
+        $('.two[group="A"]').show();
+        $('.two[group="B"]').show();
+        $('.two[group="C"]').show();
       }
     } else if (select2 == "Level 3") {
       $(".one").delay(500).fadeOut("fast");
