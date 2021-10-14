@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8" />
+    <title>EELU Timetable</title>
+    <meta name="description" content="" />
+    <meta name="author" content="Ola Galal" />
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>EELU Table</h1>
+
+    <div>
+      <label>Filter By</label>
+      <select name="select1" id="select1">
+        <option value="none"></option>
+        <option value="ta">TA</option>
+        <option value="level">Level</option>
+      </select>
+
+      <select name="select2" id="select2">
+        <option value="ta"></option>
+        <option value="ta">O. Galal</option>
+        <option value="ta">A. Hefny</option>
+        <option value="ta">M. Fares</option>
+        <option value="ta">A. Elgezawy</option>
+        <option value="ta">S. Nour</option>
+        <option value="ta">A. Samy</option>
+        <option value="level"></option>
+        <option value="level">Level 1</option>
+        <option value="level">Level 2</option>
+        <option value="level">Level 3</option>
+        <option value="level">Level 4</option>
+      </select>
+
+      <select name="groupsLevel1" id="groupsLevel1">
+        <option value="NA"></option>
+        <option value="a">Group A</option>
+        <option value="b">Group B</option>
+        <option value="c">Group C</option>
+        <option value="d">Group D</option>
+      </select>
+
+      <select name="groupsLevel2" id="groupsLevel2">
+        <option value="NA"></option>
+        <option value="a">Group A</option>
+        <option value="b">Group B</option>
+        <option value="c">Group C</option>
+      </select>
+
+      <br /><br />
+
+      <button id="filter">Filter</button>
+      <button id="reset">Reset</button>
+    </div>
+
+    <br /><br />
+
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th>8 AM</th>
+          <th>9 AM</th>
+          <th>10 AM</th>
+          <th>11 AM</th>
+          <th>12 PM</th>
+          <th>1 PM</th>
+          <th>2 PM</th>
+          <th>3 PM</th>
+          <th>4 PM</th>
+          <th>5 PM</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr id="sat">
+          <th>SAT</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr id="sun">
+          <th>SUN</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr id="mon">
+          <th>MON</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr id="tue">
+          <th>TUE</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr id="wed">
+          <th>WED</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr id="thu">
+          <th>THU</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+  </body>
+</html>

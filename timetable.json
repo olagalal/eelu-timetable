@@ -1,0 +1,48 @@
+{
+  "timetable": [
+    {
+      "day":"sat",
+      "time":"8",
+      "name": "Test 1",
+      "level": "two",
+      "group": ["A", "B"],
+      "type":"VCR",
+      "week":"ODD",
+      "room":"R1",
+      "ta":"O. Galal"
+    },
+    {
+      "day":"sat",
+      "time":"8",
+      "name": "Test 1",
+      "level": "two",
+      "group": ["A", "B"],
+      "type":"VCR",
+      "week":"ODD",
+      "room":"R1",
+      "ta":"O. Galal"
+    },
+    {
+      "day":"sat",
+      "time":"11",
+      "name": "Test 1",
+      "level": "three",
+      "group": ["A", "B"],
+      "type":"VCR",
+      "week":"ODD",
+      "room":"R1",
+      "ta":"A. Hefny"
+    },
+    {
+      "day":"mon",
+      "time":"11",
+      "name": "Test 1",
+      "level": "two",
+      "group": ["C", "D"],
+      "type":"VCR",
+      "week":"ODD",
+      "room":"R1",
+      "ta":"A. Hefny"
+    }
+  ]
+}
