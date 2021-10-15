@@ -1352,6 +1352,226 @@
       "week":"EVEN",
       "room":"Lab1",
       "ta":"M. Fares"
+    },
+    {
+      "day":"wed",
+      "time":"8",
+      "name": "Mathematics (1)",
+      "level": "one",
+      "group": ["B"],
+      "type":"FTF",
+      "week":"LEC",
+      "room":"R2",
+      "ta":"A. Samy"
+    },
+    {
+      "day":"wed",
+      "time":"8",
+      "name": "Mathematics (1)",
+      "level": "one",
+      "group": ["A"],
+      "type":"VCR",
+      "week":"LEC",
+      "room":"NA",
+      "ta":"NA"
+    },
+    {
+      "day":"wed",
+      "time":"8",
+      "name": "Human Computer Interaction",
+      "level": "four",
+      "group": ["All"],
+      "type":"VCR",
+      "week":"LEC",
+      "room":"NA",
+      "ta":"NA"
+    },
+    {
+      "day":"wed",
+      "time":"9",
+      "name": "Mathematics (1)",
+      "level": "one",
+      "group": ["D"],
+      "type":"FTF",
+      "week":"LEC",
+      "room":"R2",
+      "ta":"A. Samy"
+    },
+    {
+      "day":"wed",
+      "time":"9",
+      "name": "Mathematics (1)",
+      "level": "one",
+      "group": ["C"],
+      "type":"VCR",
+      "week":"LEC",
+      "room":"NA",
+      "ta":"NA"
+    },
+    {
+      "day":"wed",
+      "time":"9",
+      "name": "3D Graphics",
+      "level": "four",
+      "group": ["All"],
+      "type":"VCR",
+      "week":"LEC",
+      "room":"NA",
+      "ta":"NA"
+    },
+    {
+      "day":"wed",
+      "time":"9",
+      "name": "Programming Techniques (1)",
+      "level": "one-old",
+      "group": ["All"],
+      "type":"VCR",
+      "week":"LEC",
+      "room":"NA",
+      "ta":"NA"
+    },
+    {
+      "day":"wed",
+      "time":"10",
+      "name": "Mathematics (0)",
+      "level": "one",
+      "group": ["B"],
+      "type":"FTF",
+      "week":"LEC",
+      "room":"Lab1",
+      "ta":"O. Galal"
+    },
+    {
+      "day":"wed",
+      "time":"10",
+      "name": "Mathematics (0)",
+      "level": "one",
+      "group": ["A"],
+      "type":"VCR",
+      "week":"LEC",
+      "room":"NA",
+      "ta":"NA"
+    },
+    {
+      "day":"wed",
+      "time":"10",
+      "name": "Computer Graphics",
+      "level": "three",
+      "group": ["All"],
+      "type":"FTF",
+      "week":"LEC",
+      "room":"R4",
+      "ta":"O. Galal"
+    },
+    {
+      "day":"wed",
+      "time":"11",
+      "name": "Multimedia & VR",
+      "level": "four",
+      "group": ["All"],
+      "type":"VCR",
+      "week":"LEC",
+      "room":"NA",
+      "ta":"NA"
+    },
+    {
+      "day":"wed",
+      "time":"11",
+      "name": "Artificil Intelligence",
+      "level": "three",
+      "group": ["All"],
+      "type":"FTF",
+      "week":"LEC",
+      "room":"R4",
+      "ta":"O. Galal"
+    },
+    {
+      "day":"wed",
+      "time":"12",
+      "name": "Computer Organization (2)",
+      "level": "three",
+      "group": ["All"],
+      "type":"FTF",
+      "week":"LEC",
+      "room":"R4",
+      "ta":"O. Galal"
+    },
+    {
+      "day":"wed",
+      "time":"12",
+      "name": "Mathematics (1)",
+      "level": "one",
+      "group": ["B"],
+      "type":"FTF",
+      "week":"EVEN",
+      "room":"R2",
+      "ta":"A. Samy"
+    },
+    {
+      "day":"wed",
+      "time":"12",
+      "name": "Mathematics (1)",
+      "level": "one",
+      "group": ["A", "C"],
+      "type":"VCR",
+      "week":"ODD",
+      "room":"R2",
+      "ta":"A. Samy"
+    },
+    {
+      "day":"wed",
+      "time":"13",
+      "name": "Introduction to Computers",
+      "level": "one",
+      "group": ["D"],
+      "type":"FTF",
+      "week":"EVEN",
+      "room":"Lab1",
+      "ta":"A. Hefny"
+    },
+    {
+      "day":"wed",
+      "time":"13",
+      "name": "3D Graphics",
+      "level": "four",
+      "group": ["All"],
+      "type":"VCR",
+      "week":"EVEN",
+      "room":"R2",
+      "ta":"O. Galal"
+    },
+    {
+      "day":"wed",
+      "time":"15",
+      "name": "Mathematics (1)",
+      "level": "one",
+      "group": ["D"],
+      "type":"FTF",
+      "week":"EVEN",
+      "room":"R2",
+      "ta":"A. Samy"
+    },
+    {
+      "day":"wed",
+      "time":"15",
+      "name": "Introduction to Computers",
+      "level": "one",
+      "group": ["A", "C"],
+      "type":"VCR",
+      "week":"ODD",
+      "room":"Lab1",
+      "ta":"A. Hefny"
+    },
+    {
+      "day":"wed",
+      "time":"15",
+      "name": "Introduction to Computers",
+      "level": "one",
+      "group": ["B"],
+      "type":"FTF",
+      "week":"EVEN",
+      "room":"Lab1",
+      "ta":"A. Hefny"
     }
 
   ]
