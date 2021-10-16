@@ -16,7 +16,7 @@
       "time":"9",
       "name": "Mathematics(1)",
       "level": "one",
-      "group": ["A"],
+      "group": ["C"],
       "type":"FTF",
       "week":"EVEN",
       "room":"R4",
@@ -49,7 +49,7 @@
       "time":"9",
       "name": "Introduction to IT",
       "level": "one-old",
-      "group": ["A"],
+      "group": ["All"],
       "type":"FTF",
       "week":"EVEN",
       "room":"Lab1",
@@ -256,17 +256,6 @@
     {
       "day":"sat",
       "time":"14",
-      "name": "Database Systems",
-      "level": "three",
-      "group": ["D"],
-      "type":"VCR",
-      "week":"EVEN",
-      "room":"R3",
-      "ta":"A. Elgezawy"
-    },
-    {
-      "day":"sat",
-      "time":"14",
       "name": "Systems & OR",
       "level": "two",
       "group": ["C"],
@@ -280,7 +269,7 @@
       "time":"15",
       "name": "Mathemaics",
       "level": "one",
-      "group": ["C"],
+      "group": ["A"],
       "type":"FTF",
       "week":"EVEN",
       "room":"R2",
@@ -524,7 +513,7 @@
       "level": "four",
       "group": ["All"],
       "type":"VCR",
-      "week":"EVEN",
+      "week":"ODD",
       "room":"Lab1",
       "ta":"A. Hefny"
     },
@@ -591,7 +580,7 @@
       "group": ["All"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R2",
+      "room":"R3",
       "ta":"A. Samy"
     },
     {
@@ -608,13 +597,13 @@
     {
       "day":"sun",
       "time":"14",
-      "name": "Programming Techniques (3)",
-      "level": "two",
-      "group": ["C"],
-      "type":"FTF",
+      "name": "ELectronics",
+      "level": "one",
+      "group": ["B", "D"],
+      "type":"VCR",
       "week":"EVEN",
-      "room":"Lab1",
-      "ta":"S. Nour"
+      "room":"R2",
+      "ta":"M. Fares"
     },
     {
       "day":"sun",
@@ -624,7 +613,7 @@
       "group": ["All"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R2",
+      "room":"R3",
       "ta":"M. Fares"
     },
     {
@@ -654,7 +643,7 @@
       "time":"8",
       "name": "Database Systems",
       "level": "three",
-      "group": ["D"],
+      "group": ["All"],
       "type":"VCR",
       "week":"LEC",
       "room":"NA",
@@ -665,11 +654,22 @@
       "time":"9",
       "name": "Software Engineering (2)",
       "level": "three",
-      "group": ["D"],
+      "group": ["All"],
       "type":"VCR",
       "week":"LEC",
       "room":"NA",
       "ta":"NA"
+    },
+    {
+      "day":"mon",
+      "time":"9",
+      "name": "Programming Techniques (3)",
+      "level": "two",
+      "group": ["A"],
+      "type":"FTF",
+      "week":"EVEN",
+      "room":"Lab1",
+      "ta":"S. Nour"
     },
     {
       "day":"mon",
@@ -695,10 +695,21 @@
     },
     {
       "day":"mon",
+      "time":"9",
+      "name": "Mulyimedia & VR",
+      "level": "four",
+      "group": ["All"],
+      "type":"FTF",
+      "week":"ODD",
+      "room":"Lab1",
+      "ta":"A. Samy"
+    },
+    {
+      "day":"mon",
       "time":"10",
       "name": "Computer Network (1)",
       "level": "three",
-      "group": ["D"],
+      "group": ["All"],
       "type":"VCR",
       "week":"LEC",
       "room":"NA",
@@ -723,7 +734,7 @@
       "group": ["B"],
       "type":"VCR",
       "week":"ODD",
-      "room":"R1",
+      "room":"R2",
       "ta":"A. Hefny"
     },
     {
@@ -764,7 +775,7 @@
       "time":"11",
       "name": "Systems & OR",
       "level": "two",
-      "group": ["A"],
+      "group": ["B"],
       "type":"VCR",
       "week":"LEC",
       "room":"NA",
@@ -898,8 +909,8 @@
       "level": "two",
       "group": ["B"],
       "type":"VCR",
-      "week":"ODD",
-      "room":"R3",
+      "week":"EVEN",
+      "room":"Lab1",
       "ta":"S. Nour"
     },
     {
@@ -909,7 +920,7 @@
       "level": "three",
       "group": ["All"],
       "type":"VCR",
-      "week":"EVEN",
+      "week":"ODD",
       "room":"R2",
       "ta":"O. Galal"
     },
@@ -920,7 +931,7 @@
       "level": "three",
       "group": ["All"],
       "type":"VCR",
-      "week":"ODD",
+      "week":"EVEN",
       "room":"R2",
       "ta":"O. Galal"
     },
@@ -932,7 +943,7 @@
       "group": ["C"],
       "type":"FTF",
       "week":"ODD",
-      "room":"R3",
+      "room":"R4",
       "ta":"S. Nour"
     },
     {
@@ -965,7 +976,7 @@
       "group": ["All"],
       "type":"VCR",
       "week":"ODD",
-      "room":"Lab1",
+      "room":"R3",
       "ta":"A. Elgezawy"
     },
     {
@@ -976,7 +987,7 @@
       "group": ["B"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R1",
+      "room":"R2",
       "ta":"S. Nour"
     },
     {
@@ -1036,6 +1047,17 @@
     },
     {
       "day":"tue",
+      "time":"9",
+      "name": "Discrete Mathematics",
+      "level": "one",
+      "group": ["D"],
+      "type":"FTF",
+      "week":"EVEN",
+      "room":"Lab1",
+      "ta":"S. Nour"
+    },
+    {
+      "day":"tue",
       "time":"10",
       "name": "Automata Models",
       "level": "two",
@@ -1070,12 +1092,12 @@
     {
       "day":"tue",
       "time":"10",
-      "name": "Discrete Mathematics",
+      "name": "Electronics",
       "level": "one",
-      "group": ["D"],
+      "group": ["B"],
       "type":"FTF",
-      "week":"EVEN",
-      "room":"R4",
+      "week":"ODD",
+      "room":"Lab1",
       "ta":"M. Fares"
     },
     {
@@ -1129,7 +1151,7 @@
       "level": "two",
       "group": ["B"],
       "type":"FTF",
-      "week":"EVEN",
+      "week":"ODD",
       "room":"Lab1",
       "ta":"S. Nour"
     },
@@ -1140,7 +1162,7 @@
       "level": "three",
       "group": ["All"],
       "type":"FTF",
-      "week":"ODD",
+      "week":"EVEN",
       "room":"Lab1",
       "ta":"O. Galal"
     },
@@ -1206,7 +1228,7 @@
       "level": "four",
       "group": ["All"],
       "type":"FTF",
-      "week":"ODD",
+      "week":"EVEN",
       "room":"Lab1",
       "ta":"A. Hefny"
     },
@@ -1217,7 +1239,7 @@
       "level": "three",
       "group": ["All"],
       "type":"FTF",
-      "week":"EVEN",
+      "week":"ODD",
       "room":"Lab1",
       "ta":"O. Galal"
     },
@@ -1290,22 +1312,11 @@
     {
       "day":"tue",
       "time":"14",
-      "name": "Discrete Mathematics",
-      "level": "one",
-      "group": ["B"],
-      "type":"FTF",
-      "week":"EVEN",
-      "room":"R3",
-      "ta":"S. Nour"
-    },
-    {
-      "day":"tue",
-      "time":"14",
       "name": "Electronics",
       "level": "one",
       "group": ["D"],
       "type":"FTF",
-      "week":"EVEN",
+      "week":"ODD",
       "room":"R4",
       "ta":"M. Fares"
     },
@@ -1317,8 +1328,30 @@
       "group": ["B"],
       "type":"FTF",
       "week":"EVEN",
-      "room":"R2",
+      "room":"R3",
       "ta":"A. Hefny"
+    },
+    {
+      "day":"tue",
+      "time":"14",
+      "name": "Automata Models",
+      "level": "two",
+      "group": ["A", "C"],
+      "type":"VCR",
+      "week":"ODD",
+      "room":"R3",
+      "ta":"A. Hefny"
+    },
+    {
+      "day":"tue",
+      "time":"14",
+      "name": "Discrete Mathematics",
+      "level": "two",
+      "group": ["A", "C"],
+      "type":"VCR",
+      "week":"EVEN",
+      "room":"R2",
+      "ta":"S. Nour"
     },
     {
       "day":"tue",
@@ -1327,7 +1360,7 @@
       "level": "four",
       "group": ["All"],
       "type":"FTF",
-      "week":"Odd",
+      "week":"ODD",
       "room":"Lab1",
       "ta":"O. Galal"
     },
@@ -1341,6 +1374,17 @@
       "week":"EVEN",
       "room":"Lab1",
       "ta":"O. Galal"
+    },
+    {
+      "day":"tue",
+      "time":"15",
+      "name": "Discrete Mathematics",
+      "level": "one",
+      "group": ["B"],
+      "type":"FTF",
+      "week":"EVEN",
+      "room":"R2",
+      "ta":"S. Nour"
     },
     {
       "day":"tue",
@@ -1361,7 +1405,7 @@
       "group": ["B"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R2",
+      "room":"Lab1",
       "ta":"A. Samy"
     },
     {
@@ -1394,7 +1438,7 @@
       "group": ["D"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R2",
+      "room":"Lab1",
       "ta":"A. Samy"
     },
     {
@@ -1523,9 +1567,20 @@
       "time":"13",
       "name": "Introduction to Computers",
       "level": "one",
-      "group": ["D"],
+      "group": ["B"],
       "type":"FTF",
       "week":"EVEN",
+      "room":"Lab1",
+      "ta":"A. Hefny"
+    },
+    {
+      "day":"wed",
+      "time":"13",
+      "name": "Introduction to Computers",
+      "level": "one",
+      "group": ["A", "C"],
+      "type":"VCR",
+      "week":"ODD",
       "room":"Lab1",
       "ta":"A. Hefny"
     },
@@ -1537,18 +1592,18 @@
       "group": ["All"],
       "type":"VCR",
       "week":"EVEN",
-      "room":"R2",
+      "room":"R4",
       "ta":"O. Galal"
     },
     {
       "day":"wed",
-      "time":"15",
+      "time":"14",
       "name": "Mathematics (1)",
       "level": "one",
       "group": ["D"],
       "type":"FTF",
       "week":"EVEN",
-      "room":"R2",
+      "room":"R4",
       "ta":"A. Samy"
     },
     {
@@ -1556,18 +1611,7 @@
       "time":"15",
       "name": "Introduction to Computers",
       "level": "one",
-      "group": ["A", "C"],
-      "type":"VCR",
-      "week":"ODD",
-      "room":"Lab1",
-      "ta":"A. Hefny"
-    },
-    {
-      "day":"wed",
-      "time":"15",
-      "name": "Introduction to Computers",
-      "level": "one",
-      "group": ["B"],
+      "group": ["D"],
       "type":"FTF",
       "week":"EVEN",
       "room":"Lab1",
@@ -1581,7 +1625,7 @@
       "group": ["D"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R2",
+      "room":"Lab1",
       "ta":"A. Elgezawy"
     },
     {
@@ -1592,7 +1636,7 @@
       "group": ["D"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R2",
+      "room":"Lab1",
       "ta":"A. Elgezawy"
     },
     {
@@ -1625,7 +1669,7 @@
       "group": ["All"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R2",
+      "room":"Lab1",
       "ta":"A. Elgezawy"
     },
     {
@@ -1641,13 +1685,24 @@
     },
     {
       "day":"thu",
+      "time":"10",
+      "name": "Mathematics (0)",
+      "level": "one",
+      "group": ["B"],
+      "type":"FTF",
+      "week":"EVEN",
+      "room":"R4",
+      "ta":"M. Fares"
+    },
+    {
+      "day":"thu",
       "time":"11",
       "name": "Programming Techniques (3)",
       "level": "two",
       "group": ["B"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R4",
+      "room":"R2",
       "ta":"S. Nour"
     },
     {
@@ -1691,7 +1746,7 @@
       "group": ["A", "B"],
       "type":"VCR",
       "week":"ODD",
-      "room":"R2",
+      "room":"Lab1",
       "ta":"M. Fares"
     },
     {
@@ -1757,30 +1812,8 @@
       "group": ["A"],
       "type":"FTF",
       "week":"EVEN",
-      "room":"R2",
+      "room":"R4",
       "ta":"M. Fares"
-    },
-    {
-      "day":"thu",
-      "time":"13",
-      "name": "Programming Techniques (3)",
-      "level": "two",
-      "group": ["B"],
-      "type":"FTF",
-      "week":"EVEN",
-      "room":"Lab1",
-      "ta":"S. Nour"
-    },
-    {
-      "day":"thu",
-      "time":"13",
-      "name": "Programming Techniques (3)",
-      "level": "two",
-      "group": ["A", "C"],
-      "type":"VCR",
-      "week":"ODD",
-      "room":"Lab1",
-      "ta":"S. Nour"
     },
     {
       "day":"thu",
@@ -1790,23 +1823,12 @@
       "group": ["A", "C"],
       "type":"VCR",
       "week":"ODD",
-      "room":"R2",
+      "room":"R4",
       "ta":"M. Fares"
     },
     {
       "day":"thu",
-      "time":"14",
-      "name": "Discrete Mathematics",
-      "level": "two",
-      "group": ["A", "C"],
-      "type":"VCR",
-      "week":"EVEN",
-      "room":"R3",
-      "ta":"S. Nour"
-    },
-    {
-      "day":"thu",
-      "time":"14",
+      "time":"13",
       "name": "Software Engineering (2)",
       "level": "three",
       "group": ["All"],
@@ -1817,7 +1839,7 @@
     },
     {
       "day":"thu",
-      "time":"14",
+      "time":"13",
       "name": "Computer Networks (1)",
       "level": "three",
       "group": ["All"],
@@ -1828,26 +1850,25 @@
     },
     {
       "day":"thu",
-      "time":"15",
-      "name": "Electronics",
-      "level": "one",
-      "group": ["B", "D"],
-      "type":"VCR",
-      "week":"ODD",
-      "room":"R2",
-      "ta":"M. Fares"
-    },
-    {
-      "day":"thu",
-      "time":"16",
-      "name": "Mathematics (0)",
-      "level": "one",
+      "time":"14",
+      "name": "Programming Techniques (3)",
+      "level": "two",
       "group": ["B"],
       "type":"FTF",
       "week":"EVEN",
-      "room":"R2",
-      "ta":"M. Fares"
+      "room":"Lab1",
+      "ta":"S. Nour"
+    },
+    {
+      "day":"thu",
+      "time":"14",
+      "name": "Programming Techniques (3)",
+      "level": "two",
+      "group": ["A", "C"],
+      "type":"VCR",
+      "week":"ODD",
+      "room":"Lab1",
+      "ta":"S. Nour"
     }
-
   ]
 }
