@@ -33,7 +33,8 @@ $(document).ready(function () {
               <div class="name">${element.name}</div>
               <div class="room">${element.room}</div>
               <div class="group">Group: ${element.group}</div>
-              <div class="type">${element.type}, ${element.week}</div>
+              <div class="type">${element.type}</div>
+              ${(!element.week) ? `<div class="type">${element.place}</div>` : `<div class="type">${element.place}, ${element.week}</div>`}
               <div class="ta">${element.ta}</div>
           </div>`;
 
