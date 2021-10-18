@@ -267,7 +267,7 @@
     {
       "day":"sat",
       "time":"15",
-      "name": "Mathemaics",
+      "name": "Mathematics (1)",
       "level": "one",
       "group": ["A"],
       "type":"FTF",
@@ -1869,6 +1869,40 @@
       "week":"ODD",
       "room":"Lab1",
       "ta":"S. Nour"
+    }, 
+
+    {
+      "day":"tue",
+      "time":"9",
+      "name": "Programming Techniques (1)",
+      "level": "one-old",
+      "group": ["All"],
+      "type":"VCR",
+      "week":"LEC",
+      "room":"NA",
+      "ta":"NA"
+    },
+    {
+      "day":"tue",
+      "time":"14",
+      "name": "Physics (1)",
+      "level": "one-old",
+      "group": ["All"],
+      "type":"VCR",
+      "week":"LEC",
+      "room":"NA",
+      "ta":"NA"
+    },
+    {
+      "day":"tue",
+      "time":"15",
+      "name": "Introduction to IT",
+      "level": "one-old",
+      "group": ["All"],
+      "type":"VCR",
+      "week":"LEC",
+      "room":"NA",
+      "ta":"NA"
     }
   ]
 }
