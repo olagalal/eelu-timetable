@@ -19,7 +19,7 @@
       "group": ["C"],
       "type":"FTF",
       "week":"EVEN",
-      "room":"R4",
+      "room":"Room4",
       "ta":"A. Samy"
     },
     {
@@ -30,7 +30,7 @@
       "group": ["B", "D"],
       "type":"VCR",
       "week":"ODD",
-      "room":"R4",
+      "room":"Room4",
       "ta":"A. Samy"
     },
     {
@@ -129,7 +129,7 @@
       "group": ["C"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R2",
+      "room":"Room2",
       "ta":"A. Samy"
     },
     {
@@ -151,7 +151,7 @@
       "group": ["A"],
       "type":"FTF",
       "week":"EVEN",
-      "room":"R4",
+      "room":"Room4",
       "ta":"M. Fares"
     },
     {
@@ -162,7 +162,7 @@
       "group": ["C"],
       "type":"FTF",
       "week":"ODD",
-      "room":"R4",
+      "room":"Room4",
       "ta":"M. Fares"
     },
     {
@@ -184,7 +184,7 @@
       "group": ["A"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R2",
+      "room":"Room2",
       "ta":"A. Samy"
     },
     {
@@ -217,7 +217,7 @@
       "group": ["All"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R4",
+      "room":"Room4",
       "ta":"M. Fares"
     },
     {
@@ -228,7 +228,7 @@
       "group": ["A"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R2",
+      "room":"Room2",
       "ta":"M. Fares"
     },
     {
@@ -261,7 +261,7 @@
       "group": ["C"],
       "type":"FTF",
       "week":"ODD",
-      "room":"R3",
+      "room":"Room3",
       "ta":"A. Elgezawy"
     },
     {
@@ -272,7 +272,7 @@
       "group": ["A"],
       "type":"FTF",
       "week":"EVEN",
-      "room":"R2",
+      "room":"Room2",
       "ta":"A. Samy"
     },
     {
@@ -283,7 +283,7 @@
       "group": ["A"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R2",
+      "room":"Room2",
       "ta":"S. Nour"
     },
     {
@@ -305,7 +305,7 @@
       "group": ["C"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R3",
+      "room":"Room3",
       "ta":"M. Fares"
     },
     {
@@ -316,7 +316,7 @@
       "group": ["A"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R2",
+      "room":"Room2",
       "ta":"M. Fares"
     },
     {
@@ -338,7 +338,7 @@
       "group": ["C"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R3",
+      "room":"Room3",
       "ta":"S. Nour"
     },
     {
@@ -360,7 +360,7 @@
       "group": ["All"],
       "type":"VCR",
       "week":"ODD",
-      "room":"R4",
+      "room":"Room4",
       "ta":"A. Samy"
     },
     {
@@ -371,7 +371,7 @@
       "group": ["All"],
       "type":"VCR",
       "week":"EVEN",
-      "room":"R4",
+      "room":"Room4",
       "ta":"A. Samy"
     },
     {
@@ -382,7 +382,7 @@
       "group": ["A"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R2",
+      "room":"Room2",
       "ta":"S. Nour"
     },
     {
@@ -404,7 +404,7 @@
       "group": ["C"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R3",
+      "room":"Room3",
       "ta":"S. Nour"
     },
     {
@@ -415,7 +415,7 @@
       "group": ["A"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R2",
+      "room":"Room2",
       "ta":"A. Hefny"
     },
     {
@@ -437,7 +437,7 @@
       "group": ["C"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R4",
+      "room":"Room4",
       "ta":"M. Fares"
     },
     {
@@ -470,7 +470,7 @@
       "group": ["A"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R2",
+      "room":"Room2",
       "ta":"M. Fares"
     },
     {
@@ -492,7 +492,7 @@
       "group": ["C"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R4",
+      "room":"Room4",
       "ta":"S. Nour"
     },
     {
@@ -525,7 +525,7 @@
       "group": ["A"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R2",
+      "room":"Room2",
       "ta":"S. Nour"
     },
     {
@@ -547,7 +547,7 @@
       "group": ["C"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R4",
+      "room":"Room4",
       "ta":"A. Hefny"
     },
     {
@@ -580,7 +580,7 @@
       "group": ["All"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R3",
+      "room":"Room3",
       "ta":"A. Samy"
     },
     {
@@ -602,7 +602,7 @@
       "group": ["B", "D"],
       "type":"VCR",
       "week":"EVEN",
-      "room":"R2",
+      "room":"Room2",
       "ta":"M. Fares"
     },
     {
@@ -613,7 +613,7 @@
       "group": ["All"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R3",
+      "room":"Room3",
       "ta":"M. Fares"
     },
     {
@@ -679,7 +679,7 @@
       "group": ["A"],
       "type":"FTF",
       "week":"ODD",
-      "room":"R2",
+      "room":"Room2",
       "ta":"S. Nour"
     },
     {
@@ -734,7 +734,7 @@
       "group": ["B"],
       "type":"VCR",
       "week":"ODD",
-      "room":"R2",
+      "room":"Room2",
       "ta":"A. Hefny"
     },
     {
@@ -745,7 +745,7 @@
       "group": ["A"],
       "type":"FTF",
       "week":"EVEN",
-      "room":"R2",
+      "room":"Room2",
       "ta":"A. Hefny"
     },
     {
@@ -767,7 +767,7 @@
       "group": ["A"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R2",
+      "room":"Room2",
       "ta":"A. Elgezawy"
     },
     {
@@ -789,7 +789,7 @@
       "group": ["C"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R3",
+      "room":"Room3",
       "ta":"A. Hefny"
     },
     {
@@ -822,7 +822,7 @@
       "group": ["A"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R3",
+      "room":"Room3",
       "ta":"A. Hefny"
     },
     {
@@ -844,7 +844,7 @@
       "group": ["C"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R2",
+      "room":"Room2",
       "ta":"A. Elgezawy"
     },
     {
@@ -877,7 +877,7 @@
       "group": ["C"],
       "type":"FTF",
       "week":"EVEN",
-      "room":"R3",
+      "room":"Room3",
       "ta":"A. Hefny"
     },
     {
@@ -888,7 +888,7 @@
       "group": ["All"],
       "type":"VCR",
       "week":"EVEN",
-      "room":"R2",
+      "room":"Room2",
       "ta":"A. Elgezawy"
     },
     {
@@ -899,7 +899,7 @@
       "group": ["All"],
       "type":"VCR",
       "week":"ODD",
-      "room":"R2",
+      "room":"Room2",
       "ta":"A. Elgezawy"
     },
     {
@@ -921,7 +921,7 @@
       "group": ["All"],
       "type":"VCR",
       "week":"ODD",
-      "room":"R2",
+      "room":"Room2",
       "ta":"O. Galal"
     },
     {
@@ -932,7 +932,7 @@
       "group": ["All"],
       "type":"VCR",
       "week":"EVEN",
-      "room":"R2",
+      "room":"Room2",
       "ta":"O. Galal"
     },
     {
@@ -943,7 +943,7 @@
       "group": ["C"],
       "type":"FTF",
       "week":"ODD",
-      "room":"R4",
+      "room":"Room4",
       "ta":"S. Nour"
     },
     {
@@ -954,7 +954,7 @@
       "group": ["All"],
       "type":"VCR",
       "week":"EVEN",
-      "room":"R2",
+      "room":"Room2",
       "ta":"A. Elgezawy"
     },
     {
@@ -965,7 +965,7 @@
       "group": ["All"],
       "type":"VCR",
       "week":"ODD",
-      "room":"R2",
+      "room":"Room2",
       "ta":"O. Galal"
     },
     {
@@ -976,7 +976,7 @@
       "group": ["All"],
       "type":"VCR",
       "week":"ODD",
-      "room":"R3",
+      "room":"Room3",
       "ta":"A. Elgezawy"
     },
     {
@@ -987,7 +987,7 @@
       "group": ["B"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R2",
+      "room":"Room2",
       "ta":"S. Nour"
     },
     {
@@ -1020,7 +1020,7 @@
       "group": ["B"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R2",
+      "room":"Room2",
       "ta":"M. Fares"
     },
     {
@@ -1064,7 +1064,7 @@
       "group": ["B"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R2",
+      "room":"Room2",
       "ta":"A. Hefny"
     },
     {
@@ -1108,7 +1108,7 @@
       "group": ["B"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R2",
+      "room":"Room2",
       "ta":"M. Fares"
     },
     {
@@ -1130,7 +1130,7 @@
       "group": ["D"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R4",
+      "room":"Room4",
       "ta":"A. Hefny"
     },
     {
@@ -1174,7 +1174,7 @@
       "group": ["B"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R3",
+      "room":"Room3",
       "ta":"S. Nour"
     },
     {
@@ -1196,7 +1196,7 @@
       "group": ["D"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R4",
+      "room":"Room4",
       "ta":"M. Fares"
     },
     {
@@ -1218,7 +1218,7 @@
       "group": ["A", "C"],
       "type":"VCR",
       "week":"EVEN",
-      "room":"R2",
+      "room":"Room2",
       "ta":"A. Elgezawy"
     },
     {
@@ -1251,7 +1251,7 @@
       "group": ["B"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R3",
+      "room":"Room3",
       "ta":"A. Hefny"
     },
     {
@@ -1273,7 +1273,7 @@
       "group": ["D"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R4",
+      "room":"Room4",
       "ta":"S. Nour"
     },
     {
@@ -1317,7 +1317,7 @@
       "group": ["D"],
       "type":"FTF",
       "week":"ODD",
-      "room":"R4",
+      "room":"Room4",
       "ta":"M. Fares"
     },
     {
@@ -1328,7 +1328,7 @@
       "group": ["B"],
       "type":"FTF",
       "week":"EVEN",
-      "room":"R3",
+      "room":"Room3",
       "ta":"A. Hefny"
     },
     {
@@ -1339,7 +1339,7 @@
       "group": ["A", "C"],
       "type":"VCR",
       "week":"ODD",
-      "room":"R3",
+      "room":"Room3",
       "ta":"A. Hefny"
     },
     {
@@ -1350,7 +1350,7 @@
       "group": ["A", "C"],
       "type":"VCR",
       "week":"EVEN",
-      "room":"R2",
+      "room":"Room2",
       "ta":"S. Nour"
     },
     {
@@ -1383,7 +1383,7 @@
       "group": ["B"],
       "type":"FTF",
       "week":"EVEN",
-      "room":"R2",
+      "room":"Room2",
       "ta":"S. Nour"
     },
     {
@@ -1504,7 +1504,7 @@
       "group": ["All"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R4",
+      "room":"Room4",
       "ta":"O. Galal"
     },
     {
@@ -1526,7 +1526,7 @@
       "group": ["All"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R4",
+      "room":"Room4",
       "ta":"O. Galal"
     },
     {
@@ -1537,7 +1537,7 @@
       "group": ["All"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R4",
+      "room":"Room4",
       "ta":"O. Galal"
     },
     {
@@ -1548,7 +1548,7 @@
       "group": ["B"],
       "type":"FTF",
       "week":"EVEN",
-      "room":"R2",
+      "room":"Room2",
       "ta":"A. Samy"
     },
     {
@@ -1559,7 +1559,7 @@
       "group": ["A", "C"],
       "type":"VCR",
       "week":"ODD",
-      "room":"R2",
+      "room":"Room2",
       "ta":"A. Samy"
     },
     {
@@ -1592,7 +1592,7 @@
       "group": ["All"],
       "type":"VCR",
       "week":"EVEN",
-      "room":"R4",
+      "room":"Room4",
       "ta":"O. Galal"
     },
     {
@@ -1603,7 +1603,7 @@
       "group": ["D"],
       "type":"FTF",
       "week":"EVEN",
-      "room":"R4",
+      "room":"Room4",
       "ta":"A. Samy"
     },
     {
@@ -1691,7 +1691,7 @@
       "group": ["B"],
       "type":"FTF",
       "week":"EVEN",
-      "room":"R4",
+      "room":"Room4",
       "ta":"M. Fares"
     },
     {
@@ -1702,7 +1702,7 @@
       "group": ["B"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R2",
+      "room":"Room2",
       "ta":"S. Nour"
     },
     {
@@ -1757,7 +1757,7 @@
       "group": ["B"],
       "type":"FTF",
       "week":"LEC",
-      "room":"R3",
+      "room":"Room3",
       "ta":"A. Elgezawy"
     },
     {
@@ -1812,7 +1812,7 @@
       "group": ["A"],
       "type":"FTF",
       "week":"EVEN",
-      "room":"R4",
+      "room":"Room4",
       "ta":"M. Fares"
     },
     {
@@ -1823,7 +1823,7 @@
       "group": ["A", "C"],
       "type":"VCR",
       "week":"ODD",
-      "room":"R4",
+      "room":"Room4",
       "ta":"M. Fares"
     },
     {
