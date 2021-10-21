@@ -1833,17 +1833,6 @@
     {
       "day":"thu",
       "time":"12",
-      "name": "Systems & OR",
-      "level": "two",
-      "group": ["B"],
-      "place":"VCR",
-      "type":"Lecture",
-      "room":"NA",
-      "ta":"NA"
-    },
-    {
-      "day":"thu",
-      "time":"12",
       "name": "Programming Techniques (3)",
       "level": "two",
       "group": ["C"],
@@ -1984,7 +1973,7 @@
     },
     {
       "day":"thu",
-      "time":"13",
+      "time":"12",
       "name": "Systems & OR",
       "level": "two",
       "group": ["A"],
