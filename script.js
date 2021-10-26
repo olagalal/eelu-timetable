@@ -32,7 +32,7 @@ $(document).ready(function () {
       let el = `<div class="event ${element.level}" group="${element.group}" ta="${element.ta}">
               <div class="name">${element.name}</div>
               <div class="room">${element.room}</div>
-              <div class="group">Group: ${element.group}</div>
+              <div class="group">Section: ${element.group}</div>
               <div class="type">${element.type}</div>
               ${(!element.week) ? `<div class="type">${element.place}</div>` : `<div class="type">${element.place}, ${element.week}</div>`}
               <div class="ta">${element.ta}</div>
@@ -56,102 +56,146 @@ document.querySelector("#filter").addEventListener("click", () => {
       $(".two").delay(500).fadeOut("fast");
       $(".three").delay(500).fadeOut("fast");
       $(".four").delay(500).fadeOut("fast");
-      $(".one-old").delay(500).fadeOut("fast");
 
-      if (groupLevel1 == "a") {
-        $('.one[group="A,C"]').show();
-        $('.one[group="B,D"]').delay(500).fadeOut("fast");
-        $('.one[group="A,B"]').show();
-
-        $('.one[group="A"]').show();
-        $('.one[group="B"]').delay(500).fadeOut("fast");
-        $('.one[group="C"]').delay(500).fadeOut("fast");
-        $('.one[group="D"]').delay(500).fadeOut("fast");
-      } else if (groupLevel1 == "b") {
-        $('.one[group="A,C"]').delay(500).fadeOut("fast");
-        $('.one[group="B,D"]').show();
-        $('.one[group="A,B"]').show();
-
-        $('.one[group="A"]').delay(500).fadeOut("fast");
-        $('.one[group="B"]').show();
-        $('.one[group="C"]').delay(500).fadeOut("fast");
-        $('.one[group="D"]').delay(500).fadeOut("fast");
-      } else if (groupLevel1 == "c") {
-        $('.one[group="A,C"]').show();
-        $('.one[group="B,D"]').delay(500).fadeOut("fast");
-        $('.one[group="A,B"]').delay(500).fadeOut("fast");
-
-        $('.one[group="A"]').delay(500).fadeOut("fast");
-        $('.one[group="B"]').delay(500).fadeOut("fast");
-        $('.one[group="C"]').show();
-        $('.one[group="D"]').delay(500).fadeOut("fast");
-      } else if (groupLevel1 == "d") {
-        $('.one[group="A,C"]').delay(500).fadeOut("fast");
-        $('.one[group="B,D"]').show();
-        $('.one[group="A,B"]').delay(500).fadeOut("fast");
-
-        $('.one[group="A"]').delay(500).fadeOut("fast");
-        $('.one[group="B"]').delay(500).fadeOut("fast");
-        $('.one[group="C"]').delay(500).fadeOut("fast");
-        $('.one[group="D"]').show();
+      if (groupLevel1 == "1") {
+        $('.one[group="old"]').delay(500).fadeOut("fast");
+        $('.one[group="1"]').show();
+        $('.one[group="2"]').delay(500).fadeOut("fast");
+        $('.one[group="3"]').delay(500).fadeOut("fast");
+        $('.one[group="4"]').delay(500).fadeOut("fast");
+        $('.one[group="5"]').delay(500).fadeOut("fast");
+        
+        $('.one[group="old,1"]').show();
+        $('.one[group="1,2"]').show();
+        $('.one[group="3,4"]').delay(500).fadeOut("fast");
+        
+        $('.one[group="old,1,2"]').show();
+        $('.one[group="3,4,5"]').delay(500).fadeOut("fast");
+      } else if (groupLevel1 == "2") {
+        $('.one[group="old"]').delay(500).fadeOut("fast");
+        $('.one[group="1"]').delay(500).fadeOut("fast");
+        $('.one[group="2"]').show();
+        $('.one[group="3"]').delay(500).fadeOut("fast");
+        $('.one[group="4"]').delay(500).fadeOut("fast");
+        $('.one[group="5"]').delay(500).fadeOut("fast");
+        
+        $('.one[group="old,1"]').delay(500).fadeOut("fast");
+        $('.one[group="1,2"]').show();
+        $('.one[group="3,4"]').delay(500).fadeOut("fast");
+        
+        $('.one[group="old,1,2"]').show();
+        $('.one[group="3,4,5"]').delay(500).fadeOut("fast");
+      } else if (groupLevel1 == "3") {
+        $('.one[group="old"]').delay(500).fadeOut("fast");
+        $('.one[group="1"]').delay(500).fadeOut("fast");
+        $('.one[group="2"]').delay(500).fadeOut("fast");
+        $('.one[group="3"]').show();
+        $('.one[group="4"]').delay(500).fadeOut("fast");
+        $('.one[group="5"]').delay(500).fadeOut("fast");
+        
+        $('.one[group="old,1"]').delay(500).fadeOut("fast");
+        $('.one[group="1,2"]').delay(500).fadeOut("fast");
+        $('.one[group="3,4"]').show();
+        
+        $('.one[group="old,1,2"]').delay(500).fadeOut("fast");
+        $('.one[group="3,4,5"]').show();
+      } else if (groupLevel1 == "4") {
+        $('.one[group="old"]').delay(500).fadeOut("fast");
+        $('.one[group="1"]').delay(500).fadeOut("fast");
+        $('.one[group="2"]').delay(500).fadeOut("fast");
+        $('.one[group="3"]').delay(500).fadeOut("fast");
+        $('.one[group="4"]').show();
+        $('.one[group="5"]').delay(500).fadeOut("fast");
+        
+        $('.one[group="old,1"]').delay(500).fadeOut("fast");
+        $('.one[group="1,2"]').delay(500).fadeOut("fast");
+        $('.one[group="3,4"]').show();
+        
+        $('.one[group="old,1,2"]').delay(500).fadeOut("fast");
+        $('.one[group="3,4,5"]').show();
+      } else if (groupLevel1 == "5") {
+        $('.one[group="old"]').delay(500).fadeOut("fast");
+        $('.one[group="1"]').delay(500).fadeOut("fast");
+        $('.one[group="2"]').delay(500).fadeOut("fast");
+        $('.one[group="3"]').delay(500).fadeOut("fast");
+        $('.one[group="4"]').delay(500).fadeOut("fast");
+        $('.one[group="5"]').show();
+        
+        $('.one[group="old,1"]').delay(500).fadeOut("fast");
+        $('.one[group="1,2"]').delay(500).fadeOut("fast");
+        $('.one[group="3,4"]').delay(500).fadeOut("fast");
+        
+        $('.one[group="old,1,2"]').delay(500).fadeOut("fast");
+        $('.one[group="3,4,5"]').show();
+      } else if (groupLevel1 == "old") {
+        $('.one[group="old"]').show();
+        $('.one[group="1"]').delay(500).fadeOut("fast");
+        $('.one[group="2"]').delay(500).fadeOut("fast");
+        $('.one[group="3"]').delay(500).fadeOut("fast");
+        $('.one[group="4"]').delay(500).fadeOut("fast");
+        $('.one[group="5"]').delay(500).fadeOut("fast");
+        
+        $('.one[group="old,1"]').show();
+        $('.one[group="1,2"]').delay(500).fadeOut("fast");
+        $('.one[group="3,4"]').delay(500).fadeOut("fast");
+        
+        $('.one[group="old,1,2"]').show();
+        $('.one[group="3,4,5"]').delay(500).fadeOut("fast");
       } else if (groupLevel1 == "NA") {
-        $('.one[group="A,C"]').show();
-        $('.one[group="B,D"]').show();
-
-        $('.one[group="A"]').show();
-        $('.one[group="B"]').show();
-        $('.one[group="C"]').show();
-        $('.one[group="D"]').show();
+        $('.one[group="old"]').show();
+        $('.one[group="1"]').show();
+        $('.one[group="2"]').show();
+        $('.one[group="3"]').show();
+        $('.one[group="4"]').show();
+        $('.one[group="5"]').show();
+        
+        $('.one[group="old,1"]').show();
+        $('.one[group="1,2"]').show();
+        $('.one[group="3,4"]').show();
+        
+        $('.one[group="old,1,2"]').show();
+        $('.one[group="3,4,5"]').show();
       }
     } else if (select2 == "Level 2") {
       $(".one").delay(500).fadeOut("fast");
       $(".three").delay(500).fadeOut("fast");
       $(".four").delay(500).fadeOut("fast");
-      $(".one-old").delay(500).fadeOut("fast");
 
-      if (groupLevel2 == "a") {
-        $('.two[group="A,C"]').show();
+      if (groupLevel2 == "1") {
+        $('.two[group="1,3"]').show();
 
-        $('.two[group="A"]').show();
-        $('.two[group="B"]').delay(500).fadeOut("fast");
-        $('.two[group="C"]').delay(500).fadeOut("fast");
-      } else if (groupLevel2 == "b") {
-        $('.two[group="A,C"]').delay(500).fadeOut("fast");
+        $('.two[group="1"]').show();
+        $('.two[group="2"]').delay(500).fadeOut("fast");
+        $('.two[group="3"]').delay(500).fadeOut("fast");
+      } else if (groupLevel2 == "2") {
+        $('.two[group="1,3"]').delay(500).fadeOut("fast");
 
-        $('.two[group="A"]').delay(500).fadeOut("fast");
-        $('.two[group="B"]').show();
-        $('.two[group="C"]').delay(500).fadeOut("fast");
-      } else if (groupLevel2 == "c") {
-        $('.two[group="A,C"]').show();
+        $('.two[group="1"]').delay(500).fadeOut("fast");
+        $('.two[group="2"]').show();
+        $('.two[group="3"]').delay(500).fadeOut("fast");
+      } else if (groupLevel2 == "3") {
+        $('.two[group="1,3"]').show();
 
-        $('.two[group="A"]').delay(500).fadeOut("fast");
-        $('.two[group="B"]').delay(500).fadeOut("fast");
-        $('.two[group="C"]').show();
+        $('.two[group="1"]').delay(500).fadeOut("fast");
+        $('.two[group="2"]').delay(500).fadeOut("fast");
+        $('.two[group="3"]').show();
       } else if (groupLevel2 == "NA") {
-        $('.one[group="A,C"]').show();
+        $('.one[group="1,3"]').show();
 
-        $('.two[group="A"]').show();
-        $('.two[group="B"]').show();
-        $('.two[group="C"]').show();
+        $('.two[group="1"]').show();
+        $('.two[group="2"]').show();
+        $('.two[group="3"]').show();
       }
     } else if (select2 == "Level 3") {
       $(".one").delay(500).fadeOut("fast");
       $(".two").delay(500).fadeOut("fast");
       $(".three").show();
       $(".four").delay(500).fadeOut("fast");
-      $(".one-old").delay(500).fadeOut("fast");
     } else if (select2 == "Level 4") {
       $(".one").delay(500).fadeOut("fast");
       $(".two").delay(500).fadeOut("fast");
       $(".three").delay(500).fadeOut("fast");
       $(".four").show();
-      $(".one-old").delay(500).fadeOut("fast");
-    } else if (select2 == "Level 1 - Old") {
-      $(".one").delay(500).fadeOut("fast");
-      $(".two").delay(500).fadeOut("fast");
-      $(".three").delay(500).fadeOut("fast");
-      $(".four").delay(500).fadeOut("fast");
-      $(".one-old").show();
     }
   } else if (by == "TA") {
     if (select2 == "O. Galal") {
@@ -161,7 +205,7 @@ document.querySelector("#filter").addEventListener("click", () => {
       $('.event[ta="A. Elgezawy"]').delay(500).fadeOut("fast");
       $('.event[ta="S. Nour"]').delay(500).fadeOut("fast");
       $('.event[ta="A. Samy"]').delay(500).fadeOut("fast");
-      $('.event[ta="NA"]').delay(500).fadeOut("fast");
+      $('.event[ta=""]').delay(500).fadeOut("fast");
     } else if (select2 == "A. Hefny") {
       $('.event[ta="O. Galal"]').delay(500).fadeOut("fast");
       $('.event[ta="A. Hefny"]').show();
@@ -169,7 +213,7 @@ document.querySelector("#filter").addEventListener("click", () => {
       $('.event[ta="A. Elgezawy"]').delay(500).fadeOut("fast");
       $('.event[ta="S. Nour"]').delay(500).fadeOut("fast");
       $('.event[ta="A. Samy"]').delay(500).fadeOut("fast");
-      $('.event[ta="NA"]').delay(500).fadeOut("fast");
+      $('.event[ta=""]').delay(500).fadeOut("fast");
     } else if (select2 == "M. Fares") {
       $('.event[ta="O. Galal"]').delay(500).fadeOut("fast");
       $('.event[ta="A. Hefny"]').delay(500).fadeOut("fast");
@@ -177,7 +221,7 @@ document.querySelector("#filter").addEventListener("click", () => {
       $('.event[ta="A. Elgezawy"]').delay(500).fadeOut("fast");
       $('.event[ta="S. Nour"]').delay(500).fadeOut("fast");
       $('.event[ta="A. Samy"]').delay(500).fadeOut("fast");
-      $('.event[ta="NA"]').delay(500).fadeOut("fast");
+      $('.event[ta=""]').delay(500).fadeOut("fast");
     } else if (select2 == "A. Elgezawy") {
       $('.event[ta="O. Galal"]').delay(500).fadeOut("fast");
       $('.event[ta="A. Hefny"]').delay(500).fadeOut("fast");
@@ -185,7 +229,7 @@ document.querySelector("#filter").addEventListener("click", () => {
       $('.event[ta="A. Elgezawy"]').show();
       $('.event[ta="S. Nour"]').delay(500).fadeOut("fast");
       $('.event[ta="A. Samy"]').delay(500).fadeOut("fast");
-      $('.event[ta="NA"]').delay(500).fadeOut("fast");
+      $('.event[ta=""]').delay(500).fadeOut("fast");
     } else if (select2 == "S. Nour") {
       $('.event[ta="O. Galal"]').delay(500).fadeOut("fast");
       $('.event[ta="A. Hefny"]').delay(500).fadeOut("fast");
@@ -193,7 +237,7 @@ document.querySelector("#filter").addEventListener("click", () => {
       $('.event[ta="A. Elgezawy"]').delay(500).fadeOut("fast");
       $('.event[ta="S. Nour"]').show();
       $('.event[ta="A. Samy"]').delay(500).fadeOut("fast");
-      $('.event[ta="NA"]').delay(500).fadeOut("fast");
+      $('.event[ta=""]').delay(500).fadeOut("fast");
     } else if (select2 == "A. Samy") {
       $('.event[ta="O. Galal"]').delay(500).fadeOut("fast");
       $('.event[ta="A. Hefny"]').delay(500).fadeOut("fast");
@@ -201,7 +245,7 @@ document.querySelector("#filter").addEventListener("click", () => {
       $('.event[ta="A. Elgezawy"]').delay(500).fadeOut("fast");
       $('.event[ta="S. Nour"]').delay(500).fadeOut("fast");
       $('.event[ta="A. Samy"]').show();
-      $('.event[ta="NA"]').delay(500).fadeOut("fast");
+      $('.event[ta=""]').delay(500).fadeOut("fast");
     } else if (select2 == "NA") {
       $('.event[ta="O. Galal"]').delay(500).fadeOut("fast");
       $('.event[ta="A. Hefny"]').delay(500).fadeOut("fast");
@@ -209,7 +253,7 @@ document.querySelector("#filter").addEventListener("click", () => {
       $('.event[ta="A. Elgezawy"]').delay(500).fadeOut("fast");
       $('.event[ta="S. Nour"]').delay(500).fadeOut("fast");
       $('.event[ta="A. Samy"]').delay(500).fadeOut("fast");
-      $('.event[ta="NA"]').show();
+      $('.event[ta=""]').show();
     }
   }
 });
