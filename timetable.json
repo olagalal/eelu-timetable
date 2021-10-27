@@ -278,13 +278,13 @@
     {
       "day":"sun",
       "time":"8",
-      "name": "Programming Techniques (3)",
+      "name": "Electronics",
       "level": "two",
-      "group": ["2"],
+      "group": ["3"],
       "type":"Lecture",
-      "place":"VCR",
-      "room":"",
-      "ta":""
+      "place":"FTF",
+      "room":"Room 3",
+      "ta":"M. Fares"
     },
     {
       "day":"sun",
@@ -415,7 +415,7 @@
     {
       "day":"sun",
       "time":"10",
-      "name": "Multimedia & Simulation",
+      "name": "Multimedia & VR",
       "level": "four",
       "group": ["All"],
       "type":"Section",
