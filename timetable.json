@@ -31,7 +31,7 @@
       "type":"Section",
       "place":"FTF",
       "week":"EVEN",
-      "room":"Room4",
+      "room":"Room 4",
       "ta":"A. Samy"
     },
     {
@@ -43,7 +43,7 @@
       "type":"Section",
       "place":"VCR",
       "week":"ODD",
-      "room":"Lab1",
+      "room":"Lab 1",
       "ta":"A. Samy"
     },
     {
@@ -66,7 +66,7 @@
       "type":"Section",
       "place":"FTF",
       "week":"EVEN",
-      "room":"R4",
+      "room":"Room 4",
       "ta":"M. Fares"
     },
     {
@@ -78,7 +78,7 @@
       "type":"Section",
       "place":"VCR",
       "week":"ODD",
-      "room":"R4",
+      "room":"Room 4",
       "ta":"M. Fares"
     },
     {
@@ -90,7 +90,7 @@
       "type":"Section",
       "place":"FTF",
       "week":"EVEN",
-      "room":"Lab1",
+      "room":"Lab 1",
       "ta":"A. Elgezawy"
     },
     {
@@ -101,7 +101,7 @@
       "group": ["All"],
       "type":"Lecture",
       "place":"FTF",
-      "room":"Lab1",
+      "room":"Lab 1",
       "ta":"M. Fares"
     },
     {
@@ -112,7 +112,7 @@
       "group": ["old", "1", "2"],
       "type":"Lecture",
       "place":"FTF",
-      "room":"R2",
+      "room":"Room 2",
       "ta":"A. Samy"
     },
     {
@@ -134,7 +134,7 @@
       "group": ["old"],
       "type":"Lecture",
       "place":"FTF",
-      "room":"R4",
+      "room":"Room 4",
       "ta":"A. Elgezawy"
     },
     {
@@ -145,7 +145,7 @@
       "group": ["All"],
       "type":"Lecture",
       "place":"FTF",
-      "room":"Lab1",
+      "room":"Lab 1",
       "ta":"A. Samy"
     },
     {
@@ -156,7 +156,7 @@
       "group": ["old", "1", "2"],
       "type":"Lecture",
       "place":"FTF",
-      "room":"R4",
+      "room":"Room 4",
       "ta":"M. Fares"
     },
     {
@@ -178,7 +178,7 @@
       "group": ["All"],
       "type":"Lecture",
       "place":"FTF",
-      "room":"Lab1",
+      "room":"Lab 1",
       "ta":"A. Samy"
     },
     {
@@ -190,7 +190,7 @@
       "type":"Section",
       "place":"VCR",
       "week":"EVEN",
-      "room":"R2",
+      "room":"Room 2",
       "ta":"A. Elgezawy"
     },
     {
@@ -202,7 +202,7 @@
       "type":"Section",
       "place":"VCR",
       "week":"ODD",
-      "room":"R2",
+      "room":"Room 2",
       "ta":"A. Elgezawy"
     },
     {
@@ -214,7 +214,7 @@
       "type":"Section",
       "place":"FTF",
       "week":"EVEN",
-      "room":"R2",
+      "room":"Room 2",
       "ta":"M. Fares"
     },
     {
@@ -226,7 +226,7 @@
       "type":"Section",
       "place":"VCR",
       "week":"ODD",
-      "room":"R2",
+      "room":"Room 2",
       "ta":"M. Fares"
     },
     {
@@ -238,7 +238,7 @@
       "type":"Section",
       "place":"FTF",
       "week":"EVEN",
-      "room":"R2",
+      "room":"Room 2",
       "ta":"A. Samy"
     },
     {
@@ -250,7 +250,7 @@
       "type":"Section",
       "place":"VCR",
       "week":"ODD",
-      "room":"R2",
+      "room":"Room 2",
       "ta":"A. Samy"
     },
     {
@@ -261,7 +261,7 @@
       "group": ["1"],
       "type":"Lecture",
       "place":"FTF",
-      "room":"R2",
+      "room":"Room 2",
       "ta":"S. Nour"
     },
     {
@@ -294,7 +294,7 @@
       "group": ["1"],
       "type":"Lecture",
       "place":"FTF",
-      "room":"Room2",
+      "room":"Room 2",
       "ta":"M. Fares"
     },
     {
@@ -316,7 +316,7 @@
       "group": ["3"],
       "type":"Lecture",
       "place":"FTF",
-      "room":"Room3",
+      "room":"Room 3",
       "ta":"S. Nour"
     },
     {
@@ -328,7 +328,7 @@
       "type":"Section",
       "place":"FTF",
       "week":"ODD",
-      "room":"Lab1",
+      "room":"Lab 1",
       "ta":"A. Hefny"
     },
     {
@@ -340,7 +340,7 @@
       "type":"Section",
       "place":"VCR",
       "week":"EVEN",
-      "room":"Lab1",
+      "room":"Lab 1",
       "ta":"A. Hefny"
     },
     {
@@ -352,7 +352,7 @@
       "type":"Section",
       "place":"FTF",
       "week":"EVEN",
-      "room":"Lab1",
+      "room":"Lab 1",
       "ta":"M. Fares"
     },
     {
@@ -364,7 +364,7 @@
       "type":"Section",
       "place":"VCR",
       "week":"ODD",
-      "room":"Lab1",
+      "room":"Lab 1",
       "ta":"M. Fares"
     },
     {
@@ -375,7 +375,7 @@
       "group": ["1"],
       "type":"Lecture",
       "place":"FTF",
-      "room":"Room2",
+      "room":"Room 2",
       "ta":"S. Nour"
     },
     {
@@ -432,7 +432,7 @@
       "group": ["old", "1", "2"],
       "type":"Lecture",
       "place":"FTF",
-      "room":"Room2",
+      "room":"Room 2",
       "ta":"A. Hefny"
     },
     {
@@ -475,7 +475,7 @@
       "time":"12",
       "name": "Electronics",
       "level": "one",
-      "group": ["old", "1", "2"],
+      "group": ["1", "2"],
       "type":"Lecture",
       "place":"FTF",
       "room":"Room 2",
@@ -1155,7 +1155,7 @@
       "time":"11",
       "name": "Electronics",
       "level": "one",
-      "group": ["old", "1", "2"],
+      "group": ["1", "2"],
       "type":"Lecture",
       "place":"VCR",
       "room":"",
@@ -1184,6 +1184,18 @@
       "week":"EVEN",
       "room":"Lab 1",
       "ta":"S. Nour"
+    },
+    {
+      "day":"tue",
+      "time":"11",
+      "name": "Introduction to IT",
+      "level": "one",
+      "group": ["old"],
+      "type":"Section",
+      "place":"VCR",
+      "week":"ODD",
+      "room":"Lab 1",
+      "ta":"A. Elgezawy"
     },
     {
       "day":"tue",
@@ -1276,18 +1288,6 @@
       "place":"VCR",
       "room":"",
       "ta":""
-    },
-    {
-      "day":"tue",
-      "time":"13",
-      "name": "Introduction to IT",
-      "level": "one",
-      "group": ["old"],
-      "type":"Section",
-      "place":"VCR",
-      "week":"ODD",
-      "room":"Room 2",
-      "ta":"A. Elgezawy"
     },
     {
       "day":"tue",
