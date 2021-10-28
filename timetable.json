@@ -31,7 +31,7 @@
       "type":"Section",
       "place":"FTF",
       "week":"EVEN",
-      "room":"Room 4",
+      "room":"Lab 1",
       "ta":"A. Samy"
     },
     {
@@ -101,7 +101,7 @@
       "group": ["All"],
       "type":"Lecture",
       "place":"FTF",
-      "room":"Lab 1",
+      "room":"Room 2",
       "ta":"M. Fares"
     },
     {
@@ -134,7 +134,7 @@
       "group": ["old"],
       "type":"Lecture",
       "place":"FTF",
-      "room":"Room 4",
+      "room":"Lab 1",
       "ta":"A. Elgezawy"
     },
     {
@@ -145,7 +145,7 @@
       "group": ["All"],
       "type":"Lecture",
       "place":"FTF",
-      "room":"Lab 1",
+      "room":"Room 4",
       "ta":"A. Samy"
     },
     {
@@ -352,8 +352,8 @@
       "type":"Section",
       "place":"FTF",
       "week":"EVEN",
-      "room":"Lab 1",
-      "ta":"M. Fares"
+      "room":"Room 4",
+      "ta":"S. Nour"
     },
     {
       "day":"sun",
@@ -364,8 +364,8 @@
       "type":"Section",
       "place":"VCR",
       "week":"ODD",
-      "room":"Lab 1",
-      "ta":"M. Fares"
+      "room":"Room 4",
+      "ta":"S. Nour"
     },
     {
       "day":"sun",
@@ -392,7 +392,7 @@
     {
       "day":"sun",
       "time":"10",
-      "name": "Programing Techniques (3)",
+      "name": "Programming Techniques (3)",
       "level": "two",
       "group": ["3"],
       "type":"Lecture",
@@ -409,7 +409,7 @@
       "type":"Section",
       "place":"VCR",
       "week":"EVEN",
-      "room":"Room 4",
+      "room":"Lab 1",
       "ta":"A. Samy"
     },
     {
@@ -421,7 +421,7 @@
       "type":"Section",
       "place":"VCR",
       "week":"ODD",
-      "room":"Room 4",
+      "room":"Lab 1",
       "ta":"A. Samy"
     },
     {
@@ -606,7 +606,7 @@
       "type":"Section",
       "place":"FTF",
       "week":"EVEN",
-      "room":"Room 4",
+      "room":"Room 2",
       "ta":"S. Nour"
     },
     {
@@ -618,7 +618,7 @@
       "type":"Section",
       "place":"VCR",
       "week":"ODD",
-      "room":"Room 4",
+      "room":"Room 2",
       "ta":"S. Nour"
     },
     {
@@ -812,6 +812,7 @@
       "group": ["old"],
       "type":"Section",
       "place":"FTF",
+      "week":"EVEN",
       "room":"Room 3",
       "ta":"A. Samy"
     },
@@ -1304,7 +1305,7 @@
     {
       "day":"tue",
       "time":"14",
-      "name": "Dissrete Mathematics",
+      "name": "Discrete Mathematics",
       "level": "one",
       "group": ["4"],
       "type":"Section",
@@ -1388,7 +1389,7 @@
     {
       "day":"tue",
       "time":"16",
-      "name": "Dissrete Mathematics",
+      "name": "Discrete Mathematics",
       "level": "one",
       "group": ["5"],
       "type":"Section",
@@ -1812,7 +1813,7 @@
       "time":"12",
       "name": "Mathematics (0)",
       "level": "one",
-      "group": ["1"],
+      "group": ["old", "1"],
       "type":"Section",
       "place":"FTF",
       "week":"ODD",
@@ -1888,7 +1889,7 @@
       "type":"Section",
       "place":"VCR",
       "week":"EVEN",
-      "room":"Room 2",
+      "room":"Lab 1",
       "ta":"A. Elgezawy"
     },
     {
