@@ -10,6 +10,11 @@ table tr td:first-child {
     color: #34495E;
 }
 
+th {
+    position: sticky;
+    top: 0;
+}
+
 table {
     width: 100%;
     height: 400px;
@@ -18,6 +23,7 @@ table {
     font-size: 14px;
     line-height: normal;
     table-layout: fixed;
+    position: relative;
 }
 
 table th:first-child {
@@ -31,10 +37,6 @@ table th {
     line-height: 40px;
 }
 
-table tr.pause {
-    background: #F0F0F0;
-}
-
 table td {
     text-align: center;
     vertical-align: top;
@@ -43,26 +45,26 @@ table td {
 }
 
 .one {
-    background: #80cebe;
+    background: #80CEBE;
 }
 
 .two {
-    background: #f282a7;
+    background: #F282A7;
 }
 
 .three {
-    background: #f0725c;
+    background: #F0725C;
 }
 
 .four {
-    background: #f6ac5a;
+    background: #F6AC5A;
 }
 
 .event {
     text-align: left;
     padding: 10px 10px;
     box-sizing: border-box;
-    color: #fff;
+    color: #FFFFFF;
     font-size: 16px;
     margin-bottom: 4px;
 }
@@ -74,11 +76,6 @@ table td {
     margin-bottom: 2px;
 }
 
-.event .room {
-    font-size: 0.8em;
-    font-weight: bold;
-}
-
 .event .group {
     margin: 0.5em 0;
     opacity: 0.8;
@@ -86,12 +83,12 @@ table td {
 }
 
 .event .type {
-    font-weight: bold;
     opacity: 0.7;
-    font-size: 0.8em;
 }
 
-.event .ta {
+.event .ta,
+.event .type,
+.event .room {
     font-weight: bold;
     font-size: 0.8em;
 }
@@ -111,5 +108,5 @@ table td {
     width: 20px;
     height: 15px;
     margin-right: 7px;
-    margin-top: 3px;;
+    margin-top: 3px;
 }
